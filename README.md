@@ -223,8 +223,6 @@ Appuyez sur `Ctrl+C` dans le terminal où le script est en cours d'exécution.
 
 * Script python tkComment utiliser ce script :
 
-    Enregistrez le code ci-dessus dans un fichier, par exemple config_editor_tk.py, dans le même répertoire que votre config.json (ou là où vous voulez qu'il soit créé).
-
     Exécutez le script :
 
     ```bash  
