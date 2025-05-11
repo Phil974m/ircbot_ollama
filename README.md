@@ -227,15 +227,9 @@ Appuyez sur `Ctrl+C` dans le terminal où le script est en cours d'exécution.
 
     Exécutez le script :
 
-          
+    ```bash  
     python config_editor_tk.py
-
-        
-
-    IGNORE_WHEN_COPYING_START
-
-    Use code with caution. Bash
-    IGNORE_WHEN_COPYING_END
+    ``` 
 
     (Assurez-vous que votre environnement Python avec tkinter est actif. tkinter est généralement inclus avec les installations standard de Python).
 
