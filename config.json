@@ -1,0 +1,53 @@
+{
+  "irc": {
+    "server": "irc.libera.chat",
+    "port": 6697,
+    "use_ssl": true,
+    "nickname": "skynetBot",
+    "realname": "Ollama Python Bot Advanced",
+    "channels": [
+      "#operation"
+    ],
+    "password": "None",
+    "nickserv_password": "VOTRE_MOT_DE_PASSE_NICKSREV_ICI_SI_NECESSAIRE",
+    "command_prefix": "!"
+  },
+  "ollama": {
+    "api_url": "http://localhost:11434/api/chat",
+    "model": "gemma3:1b",
+    "default_system_prompt": "Tu es un assistant IA amical et serviable sur un canal IRC. Tes réponses doivent être concises et pertinentes. N'inclus pas de préambule comme 'Bien sûr, voici...' ou 'Je peux vous aider avec...'. Réponds directement à la question ou au commentaire.",
+    "channel_tones": {
+      "#ollama-bot-testing": "Tu es un chatbot humoristique sur le canal #ollama-bot-testing. Tu aimes faire des jeux de mots et des blagues en lien avec l'IA et la technologie, tout en restant utile.",
+      "#serious-business": "Tu es un assistant IA professionnel et formel sur le canal #serious-business. Tes réponses doivent être précises, bien structurées, et basées sur des faits lorsque c'est possible."
+    },
+    "context_messages_count": 7,
+    "request_timeout": 90
+  },
+  "bot_settings": {
+    "log_level": "INFO",
+    "log_file": "ollama_irc_bot.log",
+    "reconnect_min_delay": 15,
+    "reconnect_max_delay": 300,
+    "reconnect_attempts": 0,
+    "message_rate_limit_delay": 1.2
+  },
+  "security": {
+    "spam_filter_keywords": [
+      "gagnez de l'argent facile",
+      "cliquez ici maintenant",
+      "http://site-suspect.com"
+    ],
+    "blocked_nicks": [
+      "SpamBotUser1",
+      "KnownTroll"
+    ]
+  },
+  "bot": {
+    "settings_log_level": "INFO",
+    "settings_log_file": "ollama_irc_bot.log",
+    "settings_reconnect_min_delay": 15,
+    "settings_reconnect_max_delay": 300,
+    "settings_reconnect_attempts": 10,
+    "settings_message_rate_limit_delay": 1.2
+  }
+}

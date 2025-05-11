@@ -1,0 +1,4 @@
+irc>=20.0.0,<21.0.0
+requests>=2.25.0,<3.0.0
+# Optionnel, mais utile si vous utilisez des fichiers .env pour la configuration
+# python-dotenv>=0.15.0,<1.0.0 
