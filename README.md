@@ -262,3 +262,13 @@ Ce script fournit une base solide pour une configuration plus conviviale de votr
 ## Contributions
 
 Les contributions sont les bienvenues ! Veuillez ouvrir une issue ou une pull request.
+
+## Licence
+
+Ce projet est sous licence MIT.
+
+---
+
+MIT License
+
+Copyright (c) 2025 Phil974m
